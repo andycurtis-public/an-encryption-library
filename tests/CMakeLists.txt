@@ -22,7 +22,7 @@ add_executable(test_encrypt_decrypt  src/test_encrypt_decrypt.c)
 list(APPEND TEST_EXECUTABLES test_encrypt_decrypt)
 
 set_target_properties(test_encrypt_decrypt PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
